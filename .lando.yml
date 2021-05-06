@@ -1,0 +1,6 @@
+name: wordpress-example-polysite
+recipe: lagoon
+config:
+  flavor: wordpress
+  build:
+    - composer install
